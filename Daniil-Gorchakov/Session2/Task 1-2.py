@@ -14,5 +14,6 @@ def frequency_of_characters(text):
 		print(f" \"{char[0]}\" - {char[1]}")
 
 
-# frequency_of_characters(input("Enter the string:\n> "))
-frequency_of_characters("The quick brown fox jumps over the lazy dog")
+if __name__ == "__main__":
+	# frequency_of_characters(input("Enter the string:\n> "))
+	frequency_of_characters("The quick brown fox jumps over the lazy dog")

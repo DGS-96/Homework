@@ -10,8 +10,10 @@ def unique_string_words(string, split_item=",", replace_items=""):
 	print("Unique words:")
 	print(", ".join(lst))
 
-# Simple input without separating and replacing elements
-# unique_string_words(input("Enter a sequence of words separated by commas:\n> "))
-unique_string_words("The, quick, brown,  brown, fox,fox,fox", ",", " ")
-print()
-unique_string_words("The quick brown brown fox fox fox", " ")
+
+if __name__ == "__main__":
+	# Simple input without separating and replacing elements
+	# unique_string_words(input("Enter a sequence of words separated by commas:\n> "))
+	unique_string_words("The, quick, brown,  brown, fox,fox,fox", ",", " ")
+	print()
+	unique_string_words("The quick brown brown fox fox fox", " ")

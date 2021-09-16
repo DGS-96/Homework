@@ -48,12 +48,13 @@ def sorting_dictionary_keys(old_dictionary):
 	return new_dictionary
 
 
-example_dictionary = {"2": "0", 1: 0, 3.0: 0.0, frozenset({4, 5}): 0, 2.1: 0, (5, 6): "tuple", "a":"0", 3+6j: "complex", b"bytes": "b0"}
+if __name__ == "__main__":
+	example_dictionary = {"2": "0", 1: 0, 3.0: 0.0, frozenset({4, 5}): 0, 2.1: 0, (5, 6): "tuple", "a":"0", 3+6j: "complex", b"bytes": "b0"}
 
-# If you change or add an element, you need to sort it again, otherwise the dictionary will not be sorted
-sorted_dictionary = sorting_dictionary_keys(example_dictionary)
+	# If you change or add an element, you need to sort it again, otherwise the dictionary will not be sorted
+	sorted_dictionary = sorting_dictionary_keys(example_dictionary)
 
-print("Example dictionary:")
-print(example_dictionary)
-print("Sorted dictionary:")
-print(sorted_dictionary) 
+	print("Example dictionary:")
+	print(example_dictionary)
+	print("Sorted dictionary:")
+	print(sorted_dictionary) 
