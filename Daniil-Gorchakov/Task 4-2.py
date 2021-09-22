@@ -1,4 +1,4 @@
-# A function that checks if a string is palindrome or not.
+# A function that checks if a string is palindrome or not
 
 def palindrome(string):
     string = string.lower()
@@ -12,6 +12,7 @@ def palindrome(string):
     elif string[:half] == string[:half:-1]:
         return True
     return False
+
 
 if __name__ == "__main__":
     example = "Madam"

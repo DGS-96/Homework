@@ -1,4 +1,4 @@
-# A function that works the same as the str.split method (without using str.split).
+# A function that works the same as the str.split method (without using str.split)
 
 def my_split(string, separators=(" ",), maxsplit=None):
     result = []
@@ -17,11 +17,12 @@ def my_split(string, separators=(" ",), maxsplit=None):
     result.append(temp)
     return result
 
+
 if __name__ == "__main__":
-    text1 = "The3quick2brown3fox"
+    text1 = "The_quick_brown-fox"
     text2 = "The quick brown fox jumps over the lazy dog"
-    print(my_split(text1, "2"))
-    print(my_split(text1, ("2", "3")))
+    print(my_split(text1, "_"))
+    print(my_split(text1, ("_", "-")))
     print(my_split(text2))
     print(my_split(text2, maxsplit=1))
     print(my_split(text2, maxsplit=3))

@@ -9,6 +9,7 @@ def replace_item(string, *replace_elements, replace_with=""):
             result += string[index]
     return result
 
+
 if __name__ == "__main__":
     text = "\"abc\" - \'cba\'"
     print(replace_item(text))
