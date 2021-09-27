@@ -3,6 +3,7 @@ import string
 def test_1_1(*strings):
     """Functions that receive a variable number of rows and return the
     characters that appear in all strings"""
+
     result = set(strings[0])
     for item in strings[1:]:
         result &= set(item)
@@ -12,6 +13,7 @@ def test_1_1(*strings):
 def test_1_2(*strings):
     """Functions that receive a variable number of rows and return the
     characters that appear in at least one string"""
+
     result = set()
     for string in strings:
         result |= set(string)
@@ -20,7 +22,7 @@ def test_1_2(*strings):
 def test_1_3(*strings):
     """Functions that receive a variable number of rows and return the
     characters that appear at least in two strings"""
-    global chars_list
+
     temp = set(strings[0])
     result = temp.copy()
     for string in strings[1:]:
@@ -31,6 +33,7 @@ def test_1_3(*strings):
 def test_1_4(*strings):
     """Functions that receive a variable number of rows and return the
     characters of alphabet, that were not used in any string"""
+
     global chars_list
     used_chars = set()
     for string in strings:
