@@ -1,10 +1,10 @@
-# A function which is from the list integers, returns a new list,
-# each of which is an element with index "i" of the new list is the product of
-# all numbers in the original array, except for the number in "i"
-
 from math import prod as multiply_list
 
 def foo(lst):
+    """A function which is from the list integers, returns a new list,
+    each of which is an element with index "i" of the new list is the product
+    of all numbers in the original array, except for the number in "i\""""
+
     copy_lst = lst[:]
     length = len(lst)
     result = []

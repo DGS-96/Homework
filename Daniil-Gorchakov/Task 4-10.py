@@ -1,6 +1,7 @@
-# A function that takes a number as an argument and returns a dictionary {number:number^2}
-
 def generate_squares(number):
+	"""A function that takes a number as an argument and returns a dictionary
+	{number:number^2}"""
+	
     return {num: num**2 for num in range(1, number + 1)}
 
 if __name__ == "__main__":

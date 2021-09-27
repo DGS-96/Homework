@@ -1,6 +1,6 @@
-# A function that returns a tuple of numbers by a given integer
-
 def get_digits(num): # -> tuple[int]
+	"""A function that returns a tuple of numbers by a given integer"""
+	
     return tuple(map(int, (str(num))))
 
 

@@ -1,6 +1,8 @@
-# A function, that receives dictionaries{letters: numbers} (summ identical keys) and merge them into one dictionary
-
 def combine_dicts(*dictionaries):
+    """A function, that receives dictionaries{letters: numbers}
+    (summ identical keys) and merge them into one dictionary"""
+
+    # Convert dictionary to list with tuple [(key, value), ...]
     temp = []
     for dict in dictionaries:
         temp.extend(list(dict.items()))

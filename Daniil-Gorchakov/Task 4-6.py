@@ -1,11 +1,10 @@
-# A function that returns the longest word in the given line
-
-# Import my_split()
+# Import my_split() from Task 4-3
 my_func = __import__("Task 4-3")
 
 def get_shortest_word(s, separators=(" ",)):
-    # build-in split or my custom split from "Task 4.3"
-    #words = tuple(s.split())
+    """A function that returns the longest word in the given line"""
+
+    # My custom split from "Task 4-3"
     words = my_func.my_split(s, separators)
 
     max_length = 0

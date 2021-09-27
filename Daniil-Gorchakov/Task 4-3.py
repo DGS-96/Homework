@@ -1,6 +1,7 @@
-# A function that works the same as the str.split method (without using str.split)
-
 def my_split(string, separators=(" ",), maxsplit=None):
+    """A function that works the same as the str.split method
+    (without usingstr.split)"""
+
     result = []
     temp = ""
     split = 0

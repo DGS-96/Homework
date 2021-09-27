@@ -1,6 +1,6 @@
-# A function that returns a list sets containing pairs of elements
-
 def get_pairs(lst): # list[] -> list[tuple()]
+    """A function that returns a list sets containing pairs of elements"""
+    
     length = len(lst)
     if length == 1:
         return None

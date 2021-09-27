@@ -1,6 +1,6 @@
-# A function that checks if a string is palindrome or not
-
 def palindrome(string):
+    """A function that checks if a string is palindrome or not"""
+    
     string = string.lower()
     string_length = len(string)
     half = int(string_length / 2)

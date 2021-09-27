@@ -1,6 +1,6 @@
-# A function that splits the string "s" at the indices specified in "indexes"
-
 def split_by_index(s, indexes):
+    """A function that splits the string "s" at the indices specified in "indexes\""""
+    
     indexes.sort()
     length_s = len(s)
 
@@ -31,4 +31,3 @@ if __name__ == "__main__":
     print(split_by_index("noluck", [42]))
     # ["no luck"]
     print(split_by_index("noluck", [2, 48, 42]))
- 
