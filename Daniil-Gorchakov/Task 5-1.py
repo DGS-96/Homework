@@ -1,6 +1,6 @@
-# Task 5-1
+# Sorted names from "data/unsorted_names.txt" in the data folder
 
-names = open("data/unsorted_names.txt").readlines()
+names = open("../data/unsorted_names.txt").readlines()
 names.sort()
 
 sorted_names = open("sorted_names.txt", "w")

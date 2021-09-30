@@ -37,4 +37,4 @@ chars_list = set(string.ascii_lowercase)
 
 if __name__ == "__main__":
 	print(most_common_words('../data/lorem_ipsum.txt'))
-	# ['donec', 'etiam', 'aliquam']
+	# >>> ['donec', 'etiam', 'aliquam']
