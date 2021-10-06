@@ -1,5 +1,7 @@
 class Cipher():
-	"""docstring for Cipher"""
+	"""Encoding and decoding keywords for the Latin alphabet.
+	Keyword cipher uses a keyword to rearrange letters in the alphabet.
+	Keyword at the beginning of the alphabet."""
 	def __init__(self, encode_key):
 		self.encode_key = encode_key.lower()
 		Cipher.generate_encode_list(self)
